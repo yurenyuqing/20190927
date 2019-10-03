@@ -9,11 +9,13 @@
         <module name="hystrix" />
         <module name="gateway" />
         <module name="nativeConfigServer" />
+        <module name="configServer" />
         <module name="provider" />
         <module name="zipkin" />
         <module name="feign" />
         <module name="ribbon" />
         <module name="zipkinClient" />
+        <module name="configClient" />
         <module name="eurekaSrerver" />
         <module name="consumer" />
         <module name="nativeConfigClient" />
@@ -22,6 +24,8 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="configClient" options="-parameters" />
+      <module name="configServer" options="-parameters" />
       <module name="consumer" options="-parameters" />
       <module name="eurekaSrerver" options="-parameters" />
       <module name="feign" options="-parameters" />

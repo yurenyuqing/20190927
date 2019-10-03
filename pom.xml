@@ -20,6 +20,8 @@
         <module>zipkinClient</module>
         <module>nativeConfigServer</module>
         <module>nativeConfigClient</module>
+        <module>configServer</module>
+        <module>configClient</module>
     </modules>
 
     <!--引入spring boot的依赖-->

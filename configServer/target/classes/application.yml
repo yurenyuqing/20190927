@@ -1,0 +1,21 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: configserver
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/yurenyuqing/20190927.git
+          search-paths: config
+          username: yurenyuqing
+          password: yryq641864981
+      label: master
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+#  instance:
+#    prefer-ip-address: true
+
