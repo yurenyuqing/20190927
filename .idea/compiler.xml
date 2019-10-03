@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="hystrix" />
+        <module name="gateway" />
+        <module name="nativeConfigServer" />
+        <module name="provider" />
+        <module name="zipkin" />
+        <module name="feign" />
+        <module name="ribbon" />
+        <module name="zipkinClient" />
+        <module name="eurekaSrerver" />
+        <module name="consumer" />
+        <module name="nativeConfigClient" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="consumer" options="-parameters" />
+      <module name="eurekaSrerver" options="-parameters" />
+      <module name="feign" options="-parameters" />
+      <module name="gateway" options="-parameters" />
+      <module name="hystrix" options="-parameters" />
+      <module name="nativeConfigClient" options="-parameters" />
+      <module name="nativeConfigServer" options="-parameters" />
+      <module name="provider" options="-parameters" />
+      <module name="ribbon" options="-parameters" />
+      <module name="zipkin" options="-parameters" />
+      <module name="zipkinClient" options="-parameters" />
+    </option>
+  </component>
+</project>
