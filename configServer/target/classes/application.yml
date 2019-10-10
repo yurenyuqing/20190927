@@ -9,8 +9,8 @@ spring:
         git:
           uri: https://github.com/yurenyuqing/20190927.git
           search-paths: config
-          username: yurenyuqing
-          password: yryq641864981
+          username: root
+          password: root
       label: master
 eureka:
   client:
